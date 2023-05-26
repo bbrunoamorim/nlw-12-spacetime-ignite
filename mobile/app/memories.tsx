@@ -3,12 +3,12 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import Icon from '@expo/vector-icons/Feather'
 import { Link, useRouter } from 'expo-router'
 import * as SecureStore from 'expo-secure-store'
+import { api } from '../src/lib/api'
 import dayjs from 'dayjs'
 import ptBr from 'dayjs/locale/pt-br'
 
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
 import { useEffect, useState } from 'react'
-import { api } from '../src/lib/api'
 
 dayjs.locale(ptBr)
 
